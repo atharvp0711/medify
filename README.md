@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+//////////// 1
+The overlay element in HomePage.module.css has a z-index of 10, but the Navbar may not have a z-index explicitly set.
+This might cause the overlay to partially cover the Navbar, making it look faded.
+Therefore we - Assign a higher z-index to the Navbar
+
+/////////// 2
+
 ## Available Scripts
 
 In the project directory, you can run:

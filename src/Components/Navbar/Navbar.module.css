@@ -1,0 +1,22 @@
+.navbar {
+  background: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+  height: 40px;
+  width: 100vw;
+  color: black;
+  position: relative;
+  z-index: 20;
+}
+
+.navbar > .links {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar > .links:hover {
+  cursor: pointer;
+}

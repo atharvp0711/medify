@@ -1,0 +1,14 @@
+.slogan {
+  width: 100vw;
+  background-color: #2aa7ff;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

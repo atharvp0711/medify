@@ -1,0 +1,9 @@
+.button {
+  background-color: #2aa7ff;
+  color: white;
+  font-family: Poppins;
+  border-radius: 8px;
+}
+.navbarBtn:hover {
+  cursor: pointer;
+}
