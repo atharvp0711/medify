@@ -9,6 +9,10 @@ Therefore we - Assign a higher z-index to the Navbar
 
 /////////// 2
 
+The onSubmit is being used on the button directly, but onSubmit is intended for forms, not buttons. Instead, you should handle the button click with onClick.
+
+/////////// 3
+
 ## Available Scripts
 
 In the project directory, you can run:
